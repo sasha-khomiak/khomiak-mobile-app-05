@@ -103,7 +103,7 @@ const CreatePostsScreen = () => {
             <View style={stylesCreatePostsScreen.photoWrap}>
               {photoURI && (
                 <ImageBackground
-                  source={photoURI}
+                  source={{ uri: photoURI }}
                   resizeMode="cover"
                   style={{
                     width: "100%",
