@@ -20,11 +20,11 @@ export const stylesCreatePostsScreen = StyleSheet.create({
     marginRight: "auto",
     // marginTop: 32,
 
-    backgroundColor: "#F6F6F6",
+    // backgroundColor: "#F6F6F6",
     borderWidth: 1,
     borderColor: "#BDBDBD",
     borderRadius: 8,
-    // overflow: "hidden",
+    overflow: "hidden",
   },
   buttonLoadPhoto: {
     backgroundColor: "white",

@@ -5,7 +5,10 @@ import React, { useState, useEffect, useRef } from "react";
 // Бібліотеки для камери та медіатеки
 import { Camera } from "expo-camera";
 import * as MediaLibrary from "expo-media-library";
-// import * as Location from "expo-location";
+
+// Бібліотека геолокації
+import * as Location from "expo-location";
+
 // Компоненти
 import {
   Text,
@@ -120,12 +123,9 @@ const CreatePostsScreen = () => {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    backgroundColor: "#F6F6F6",
-                    borderColor: "#E8E8E8",
-                    borderStyle: "solid",
-                    borderWidth: 1,
-                    height: 240,
-                    borderRadius: 8,
+                    // height: 240,
+                    height: "100%",
+                    width: "100%",
                   }}
                   type={type}
                   ref={setCameraRef}
