@@ -24,6 +24,7 @@ export const stylesCreatePostsScreen = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#BDBDBD",
     borderRadius: 8,
+    // overflow: "hidden",
   },
   buttonLoadPhoto: {
     backgroundColor: "white",
